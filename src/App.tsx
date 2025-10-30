@@ -6,6 +6,7 @@ import { Header } from './components/Header';
 import { ErrorBoundary } from './components/ErrorBoundary';
 
 const ProductsPage = lazy(() => import('./pages/ProductsPage'));
+const ProductDetailPage = lazy(() => import('./pages/ProductDetailPage'));
 
 const LoadingFallback = () => (
   <div className="flex justify-center items-center min-h-screen">
@@ -25,6 +26,7 @@ function App() {
             <Suspense fallback={<LoadingFallback />}>
               <Routes>
                 <Route path="/" element={<ProductsPage />} />
+                <Route path="/product/:id" element={<ProductDetailPage />} />
               </Routes>
             </Suspense>
           </div>
