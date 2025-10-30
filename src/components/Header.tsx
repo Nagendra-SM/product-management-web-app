@@ -13,7 +13,7 @@ export const Header = () => {
           <Link to="/" className="flex items-center gap-2 group">
             <Store className="w-8 h-8 text-blue-600 group-hover:text-blue-700 transition-colors" />
             <span className="text-xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors">
-              ShopHub
+              Product Management
             </span>
           </Link>
 
