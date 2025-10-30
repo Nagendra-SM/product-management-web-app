@@ -68,21 +68,8 @@ npm test
 yarn test
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a new branch for your feature
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📝 Notes
 
 - This project uses Vite for fast development and building
 - ESLint and Prettier are configured for code quality
 - The application is built with a mobile-first approach
-```
